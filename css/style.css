@@ -1,0 +1,99 @@
+h1 { color: black;}
+body{
+    background-color: rgba(247, 182, 158, 0.89);
+    margin: 50px;
+    padding: 50px;
+    border-style: dashed;
+}
+
+h1{
+    text-decoration: underline;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+}
+
+figure {
+    text-align: center;
+    display: inline-block;
+}
+
+figure img{
+    display: block;
+}
+
+img{
+    margin: 10px;
+}
+
+footer {
+    text-align: center;
+    margin: 10px;
+    height: 20px;
+}
+
+/* navagation styling */
+html body nav a{
+    padding-right: 20px;
+    font-weight: bold;
+    color: gray;
+}
+
+#karate-main{
+    float: right; 
+}
+
+/* figure#karate-main img{ 
+    display: block;
+ } */
+
+.content{
+    text-align: left;
+}
+
+/* table styles */
+table, th, td {
+    border: 1px solid black ;
+}
+table {
+    width: 100%;
+}
+
+th {
+    height: 50px;
+    /* text-align: center; */
+}
+
+th, td {
+    padding: 10px;
+}
+tr:hover {
+    background-color: lightgrey;
+}
+
+#table1 {
+    overflow-x:auto;
+}
+
+
+/* unvisited link */
+a:unvisited{
+    color: brown;
+}
+
+/* visited link */
+a:visited {
+    color: brown;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
